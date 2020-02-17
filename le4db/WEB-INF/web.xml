@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE web-app
+  PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+  "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+
+  <servlet>
+    <servlet-name>Top</servlet-name>
+    <servlet-class>TopServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>List</servlet-name>
+    <servlet-class>ListServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Search</servlet-name>
+    <servlet-class>SearchServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Add</servlet-name>
+    <servlet-class>AddServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Item</servlet-name>
+    <servlet-class>ItemServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Update</servlet-name>
+    <servlet-class>UpdateServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Delete</servlet-name>
+    <servlet-class>DeleteServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Userlist</servlet-name>
+    <servlet-class>UserlistServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Userpage</servlet-name>
+    <servlet-class>UserpageServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>LoginServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Useradd</servlet-name>
+    <servlet-class>UseraddServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Readerupdate</servlet-name>
+    <servlet-class>ReaderupdateServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Readers</servlet-name>
+    <servlet-class>ReadersServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Readerdelete</servlet-name>
+    <servlet-class>ReaderdeleteServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Searchforreader</servlet-name>
+    <servlet-class>SearchforreaderServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Readbook</servlet-name>
+    <servlet-class>ReadbookServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Readupdate</servlet-name>
+    <servlet-class>ReadupdateServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Addonreadhistory</servlet-name>
+    <servlet-class>AddonreadhistoryServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Userdata</servlet-name>
+    <servlet-class>UserdataServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Top</servlet-name>
+    <url-pattern>/top</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>List</servlet-name>
+    <url-pattern>/list</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Search</servlet-name>
+    <url-pattern>/search</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Add</servlet-name>
+    <url-pattern>/add</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Item</servlet-name>
+    <url-pattern>/item</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Update</servlet-name>
+    <url-pattern>/update</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Delete</servlet-name>
+    <url-pattern>/delete</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Userlist</servlet-name>
+    <url-pattern>/userlist</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Userpage</servlet-name>
+    <url-pattern>/userpage</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Useradd</servlet-name>
+    <url-pattern>/useradd</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Readerupdate</servlet-name>
+    <url-pattern>/readerupdate</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Readers</servlet-name>
+    <url-pattern>/readers</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Readerdelete</servlet-name>
+    <url-pattern>/readerdelete</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Searchforreader</servlet-name>
+    <url-pattern>/searchforreader</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Readbook</servlet-name>
+    <url-pattern>/readbook</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Readupdate</servlet-name>
+    <url-pattern>/readupdate</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Addonreadhistory</servlet-name>
+    <url-pattern>/addonreadhistory</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Userdata</servlet-name>
+    <url-pattern>/userdata</url-pattern>
+  </servlet-mapping>
+
+</web-app>
